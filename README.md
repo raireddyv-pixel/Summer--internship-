@@ -92,4 +92,72 @@ Advanced water usage analytics
 Conclusion
 
 The IoT based smart irrigation system demonstrates the use of embedded systems and internet technology in agriculture. By using soil moisture sensors, microcontrollers, and relay modules, irrigation can be automated efficiently.
-This system helps conserve water, improve farming productivity, and reduce manual labor. IoT based agriculture systems play an important role in the future of smart farming and sustainable water management.
+This system helps conserve water, improve farming productivity, and reduce manual labor. IoT based agriculture systems play an important role in the future of smart farming and sustainable water management
+.
+# Bill of Materials with Cost
+
+
+S.No.    components.           quantity.     approximately cost 
+1.      Arduino UNO.               1.          ₹450
+2.      soil moisture sensor.      1.           ₹120
+3.       relay module 5v.          1.            ₹80
+4.       mini water pump.           1            ₹150
+5.       ESP8266 Wi-Fi module.      1.           ₹250
+6.       breadboard.                 1.          100
+7.       jumper wire               1(set)        ₹80
+8.       LED indicator.               1.          ₹10
+9.       220 ohn resistor.             1.         ₹05
+10.       Power supply.                 1.        ₹200
+11.       watee pipe.                   1.         ₹50 
+      
+    Working Output
+
+Output Condition
+
+When Soil is Dry
+Sensor detects low moisture
+Relay activates
+Water pump turns ON
+LED glows
+When Soil is Wet
+Relay turns OFF
+Pump stops automatically
+Water is saved
+
+        BLOCK Diagram 
+
+        
+
+
+   +----------------------+
+        | Soil Moisture Sensor |
+        +----------+-----------+
+                   |
+                   v
+        +----------------------+
+        | Arduino UNO /        |
+        | NodeMCU Controller   |
+        +-----+-----------+----+
+              |           |
+              v           v
+     +-------------+   +-------------+
+     | Relay       |   | Wi-Fi / IoT |
+     | Module      |   | Monitoring  |
+     +------+------+   +------+------+
+            |                  |
+            v                  v
+     +-------------+    +-------------+
+     | Water Pump  |    | Mobile App  |
+     |             |    | / Cloud     |
+     +-------------+    +-------------+
+
+
+
+FLoW 
+
+     
+Soil moisture sensor detects soil condition
+Arduino processes the data
+Relay controls the water pump
+IoT module sends data to mobile/cloud
+Pump irrigates plants automatically
