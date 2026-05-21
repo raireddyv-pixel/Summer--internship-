@@ -97,7 +97,7 @@ This system helps conserve water, improve farming productivity, and reduce manua
 # Bill of Materials with Cost
 
 
-S.No.    components.           quantity.     approximately cost 
+S.No.          components.               quantity.         approximately cost 
 1.      Arduino UNO.               1.          ₹450
 2.      soil moisture sensor.      1.           ₹120
 3.       relay module 5v.          1.            ₹80
@@ -108,7 +108,7 @@ S.No.    components.           quantity.     approximately cost
 8.       LED indicator.               1.          ₹10
 9.       220 ohn resistor.             1.         ₹05
 10.       Power supply.                 1.        ₹200
-11.       watee pipe.                   1.         ₹50 
+11.       water pipe.                   1.         ₹50 
       
     Working Output
 
